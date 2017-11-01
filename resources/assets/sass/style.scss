@@ -1,0 +1,51 @@
+@charset "utf-8";
+
+// @import "~bootstrap-sass/assets/stylesheets/bootstrap";
+
+//Variables
+@import "theme-variables";
+
+@import "typography";
+@import "helper-classes";
+@import "top-bar";
+@import "header";
+@import "breadcrumb";
+@import "main";
+@import "carousels";
+@import "sliders";
+@import "sidebar";
+@import "icons";
+@import "media";
+@import "blog";
+@import "calendar";
+@import "footer";
+@import "fancybox";
+@import "boxed";
+@import "other";
+
+@import "elements/banner-set";
+@import "elements/blur-pages";
+@import "elements/charts";
+@import "elements/clients";
+@import "elements/contact-us-page";
+@import "elements/content-block";
+@import "elements/features";
+@import "elements/frames";
+@import "elements/full-width-box";
+@import "elements/galleries";
+@import "elements/latest-posts";
+@import "elements/login-page";
+@import "elements/manufactures";
+@import "elements/news";
+@import "elements/packages";
+@import "elements/page-404";
+@import "elements/pricings";
+@import "elements/respond";
+@import "elements/search-result";
+@import "elements/services";
+@import "elements/sitemap";
+@import "elements/steps";
+@import "elements/why-choose";
+// @import "skippr.scss";
+
+@import "responsive";

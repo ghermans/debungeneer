@@ -1,0 +1,99 @@
+.fc-state-default {
+  border: none;
+  background: none;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  border-radius: 0 !important;
+}
+.fc-toolbar {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.12);
+  margin: -16px -16px 16px;
+  height: 48px;
+  padding: 0 16px;
+}
+.fc-toolbar h2 {
+  font-size: 16px;
+  line-height: 48px;
+}
+
+.fc-event {
+  background: #0277bd;
+  border-radius: 3px;
+  font-size: 12px;
+}
+.fc-day-grid-event {
+  padding: 2px 2px;
+}
+.fc-day-number.fc-other-month {
+  opacity: 0.4;
+}
+.fc .fc-button-group + .fc-button-group {
+  margin-left: 24px;
+}
+.fc .fc-day-grid-event {
+  margin-top: 2px;
+}
+.fc-unthemed .fc-divider,
+.fc-unthemed .fc-popover,
+.fc-unthemed .fc-row,
+.fc-unthemed tbody,
+.fc-unthemed td,
+.fc-unthemed th,
+.fc-unthemed thead {
+  border-color: rgba(102, 102, 102, 0.12);
+}
+.fc-unthemed .fc-widget-header {
+  border: none;
+  text-align: left;
+  font-size: 15px;
+  color: #727272;
+  font-weight: 400;
+  padding: 2px 1px;
+}
+
+.fc-unthemed .fc-popover {
+  border: none !important;
+  -webkit-box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.22);
+  box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.22);
+  margin: -10px 0 0 -4px;
+}
+.fc-unthemed .fc-popover .fc-header {
+  padding: 4px;
+  background: #999;
+  color: #fff;
+}
+.fc-unthemed .fc-popover .fc-header .fc-close {
+  margin-top: 3px;
+  color: #fff;
+}
+.fc-unthemed .fc-popover .fc-event-container {
+  padding: 8px;
+}
+.fc-unthemed .fc-highlight {
+  background: none;
+  -webkit-box-shadow: inset 0 0 0 2px #2196f3, inset 0 -1px 0 2px #2196f3;
+  box-shadow: inset 0 0 0 2px #2196f3, inset 0 -1px 0 2px #2196f3;
+  opacity: 1;
+}
+.fc-ltr .fc-basic-view .fc-day-number {
+  text-align: left;
+  color: #212121;
+}
+.fc-basic-view td.fc-day-number,
+.fc-basic-view td.fc-week-number span {
+  padding: 2px 4px;
+}
+.fc-list-item + .fc-list-heading .fc-widget-header {
+  border-top: 1px solid #ddd;
+}
+.fc-list-heading .fc-widget-header {
+  padding: 4px 8px;
+  font-size: 14px;
+  font-weight: 500;
+}
+.fc-today {
+  background: #FFF !important;
+  border: none !important;
+  border-top: 1px solid #ddd !important;
+  font-weight: bold;
+}
